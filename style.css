@@ -1,0 +1,43 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body,h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.a {
+  text-align: center;
+}
+
+table, th, td {
+  border:1px solid black;
+  padding: 15px;
+}
+
+script function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+ul { 
+    list-style-type:circle;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+div.third {
+    background: rgba(223, 214, 214, 0.919);
+  }
+
+  footer {
+    text-align: center;
+    font-size: 15px;
+  }
