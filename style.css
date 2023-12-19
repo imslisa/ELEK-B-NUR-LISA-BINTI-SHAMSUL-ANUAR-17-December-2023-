@@ -41,3 +41,9 @@ div.third {
     text-align: center;
     font-size: 15px;
   }
+
+@media screen and (max-width: 800px) {
+    .mySidebar {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
